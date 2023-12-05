@@ -1,5 +1,4 @@
 <template>
-
     <table>
         <thead>
         </thead>
@@ -7,12 +6,10 @@
             <tr v-for="book in bookList">
                 <td>{{ book.title }}</td>
                 <td>{{ book.author }}</td>
-                <td>{{ book.author }}</td>
                 <td>{{ book.description }}</td>
             </tr>
         </tbody>
     </table>
-
 </template>
 
 <script setup>
